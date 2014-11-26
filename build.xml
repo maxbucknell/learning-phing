@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="learning-phing" default="hello">
+  <target name="hello">
+    <echo msg="hello, world" />
+  </target>
+</project>
+
