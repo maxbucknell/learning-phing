@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="learning-phing" default="hello">
-
+  <property name="name" value="world" override="true" />
 
   <target name="hello">
-    <echo msg="hello, world" />
+    <echo msg="hello, ${name}" />
   </target>
 
   <target name="goodbye" depends="hello">
